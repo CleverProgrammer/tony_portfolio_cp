@@ -14,9 +14,13 @@ body, html {
 		border-radius: 50%;
 }
 
-
 /**********************************/
 
+/*** thin bar ***/
+
+.thin-bar {
+	border-bottom: 5px solid #F33F12;
+}
 
 /*** About Section ***/
 
