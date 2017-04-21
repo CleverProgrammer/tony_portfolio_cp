@@ -3,48 +3,65 @@
 /*********** Global Styles********/
 
 body, html {
-	background-color: #E3E3E3;
+		background-color: #E3E3E3;
 }
 
 .wrapper {
-	background: #E3E3E3;
+		background: #E3E3E3;
 }
 
 .img-circle {
-	border-radius: 50%;
+		border-radius: 50%;
 }
+
 
 /**********************************/
 
+
 /*** About Section ***/
+
 #about {
-	margin-top: 10em;
-	border: 1px solid #eee;
-	background-color: white;
+		margin-top: 10em;
+		border: 1px solid #eee;
+		background-color: white;
+		padding-bottom: 3em;
 }
 
 #about img {
-	max-width: 15em;
-	position: relative;
-	bottom: 7.5em;
+		max-width: 15em;
+		position: relative;
+		bottom: 7.5em;
 }
 
 #about .details {
-	margin-top: -2em;
+		margin-top: -2em;
 }
 
 #about h2 {
-	color: #646464;
-	font-family: "roboto";
+		color: #646464;
+		font-family: "roboto";
 }
 
 #about h5 {
-	color: #8A8A8B;
+		color: #8A8A8B;
 }
 
 #about p {
-	margin-top: 1em;
-	color: #646464;
-	font-family: "roboto";
-	font-weight: 300;
+		margin-top: 1em;
+		color: #646464;
+		font-family: "roboto";
+		font-weight: 300;
+}
+
+.cta .button.success {
+		color: white;
+		text-transform: uppercase;
+		font-family: "Roboto";
+		border-radius: 4px;
+		transition: all 0.3s ease-out;
+}
+.cta .button.success:hover, .cta .button.success:focus {
+		color: white;
+		opacity: 0.95;
+		box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 14px 1px rgba(0, 0, 0, 0.15);
 }
