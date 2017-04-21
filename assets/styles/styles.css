@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,300,300i,400,700');
+
+/*********** Global Styles********/
+
+body, html {
+	background-color: #E3E3E3;
+}
+
+.wrapper {
+	background: #E3E3E3;
+}
+
+.img-circle {
+	border-radius: 50%;
+}
+
+/**********************************/
+
+/*** About Section ***/
+#about {
+	margin-top: 10em;
+	border: 1px solid #eee;
+	background-color: white;
+}
+
+#about img {
+	max-width: 15em;
+	position: relative;
+	bottom: 7.5em;
+}
+
+#about .details {
+	margin-top: -2em;
+}
+
+#about h2 {
+	color: #646464;
+	font-family: "roboto";
+}
+
+#about h5 {
+	color: #8A8A8B;
+}
+
+#about p {
+	margin-top: 1em;
+	color: #646464;
+	font-family: "roboto";
+	font-weight: 300;
+}
