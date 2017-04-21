@@ -1,0 +1,20 @@
+{
+  "name": "Adhoc Portfolio",
+  "homepage": "https://github.com/developertenzin/adhoc-portfolio",
+  "authors": [
+    "developertenzin <tenzinphuljung7@gmail.com>"
+  ],
+  "description": "This is a portfolio built just for Chicago Digital ;)",
+  "main": "app.js",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "foundation-sites": "^6.3.1"
+  }
+}
