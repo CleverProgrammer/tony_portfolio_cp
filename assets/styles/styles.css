@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,300,300i,400,700');
 
-
 /*********** Global Styles********/
 
 body, html {
@@ -15,13 +14,35 @@ body, html {
 		border-radius: 50%;
 }
 
+.my-button {
+		font-size: 1em;
+		line-height: normal;
+		text-transform: uppercase;
+		font-family: 'Lato', sans-serif;
+		font-weight: 900;
+		-webkit-transition: all .3s ease-in-out;
+		transition: all .3s ease-in-out;
+		letter-spacing: 0;
+		border-radius: 45px;
+		height: auto;
+		padding: .8em 2.1em;
+}
+
+.my-button:hover {
+	cursor: pointer;
+	padding: .8em 2.7em;
+}
+
+
 /**********************************/
+
 
 /*** thin bar ***/
 
 .thin-bar {
-	border-bottom: 5px solid #F33F12;
+		border-bottom: 5px solid #F33F12;
 }
+
 
 /*** About Section ***/
 
@@ -46,8 +67,13 @@ body, html {
 		color: #646464;
 		font-family: "Lato", "roboto", sans-serif;
 		font-weight: 900;
-		font-size: 3em;
+		font-size: 3.8em;
 		padding-bottom: 1em;
+}
+
+#about span {
+		font-weight: 300;
+		font-size: .7em;
 }
 
 #about h5 {
@@ -61,47 +87,49 @@ body, html {
 		font-weight: 300;
 }
 
-.cta .button.success {
-		color: white;
+.cta .cta-button {
+		color: #cc4b37;
 		text-transform: uppercase;
-		font-family: "Roboto";
-		border-radius: 4px;
-		transition: all 0.3s ease-out;
+		border: 2px solid #F33F12;
+		border-radius: 50px;
+		background: white;
 }
-.cta .button.success:hover, .cta .button.success:focus {
-		color: white;
-		opacity: 0.95;
+
+.cta .cta-button:hover, .cta .cta-button:focus {
 		box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 14px 1px rgba(0, 0, 0, 0.15);
+		background-color: #F33F12;
+		color: white;
 }
+
 
 /*** timeline story ***/
 
 #story {
-	background-color: #516C7F;
-	padding-top: 2em;
+		background-color: #516C7F;
+		padding-top: 2em;
 }
 
 .timeline ul li {
-  list-style-type: none;
-  position: relative;
-  width: 4px;
-	margin-left: 15%;
-  padding-top: 50px;
-  background: #fff;
+		list-style-type: none;
+		position: relative;
+		width: 4px;
+		margin-left: 15%;
+		padding-top: 50px;
+		background: #fff;
 }
 
 .timeline ul li::after {
-  content: '';
-  position: absolute;
-  left: 50%;
-  bottom: 0;
-  transform: translateX(-50%);
-  width: 24px;
-  height: 24px;
-  border-radius: 50%;
-  background: inherit;
+		content: '';
+		position: absolute;
+		left: 50%;
+		bottom: 0;
+		transform: translateX(-50%);
+		width: 24px;
+		height: 24px;
+		border-radius: 50%;
+		background: inherit;
 }
 
 .timeline div {
-	padding-left: 20%
+		padding-left: 20%
 }
