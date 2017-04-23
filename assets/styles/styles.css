@@ -50,7 +50,7 @@ body, html {
 		margin-top: 10em;
 		border: 1px solid #eee;
 		background-color: white;
-		padding-bottom: 3em;
+		padding-bottom: 1.6em;
 }
 
 #about img {
@@ -99,6 +99,22 @@ body, html {
 		box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 14px 1px rgba(0, 0, 0, 0.15);
 		background-color: #F33F12;
 		color: white;
+}
+
+.my-arrow-div {
+	margin-top: 5em;
+}
+
+.fi-arrow-down {
+	border: 2px solid #c3b8b8;
+	border-radius: 50%;
+	font-size: 1.2em;
+	padding: 0.1em 0.4em;
+	color: #8a8a8a;
+}
+
+.fi-arrow-down:hover {
+	cursor: pointer;
 }
 
 
