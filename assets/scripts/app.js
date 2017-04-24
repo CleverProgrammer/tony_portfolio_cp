@@ -28,7 +28,7 @@
 
 	function makeWordCloud(words) {
 		$('.teaching-domains').jQCloud(words, {
-			delay: 100
+			delay: 120
 		});
 	}
 
