@@ -56,4 +56,16 @@
 			});
 
 			displayWordCloud();
+
+			// Instantiate new modal
+			var modal = new Custombox.modal({
+			  content: {
+			    effect: 'push',
+			    target: '#my-modal'
+			  }
+			});
+
+			$(".form-button").on("click", function() {
+				modal.open();
+			})
 		})
