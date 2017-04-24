@@ -245,7 +245,10 @@ h1, h2, h3, h4, h5, h6 {
 #teaching .teaching-domains {
 	height: 500px;
 	width: auto;
+	margin-top: -4em;
 }
+
+
 
 
 
