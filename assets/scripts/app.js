@@ -56,12 +56,38 @@
 			});
 
 			displayWordCloud();
+			/*
+			new Custombox.modal({
+  // Options
+  content = {
+    target: null,
+    effect: 'fadein',
+    id: null,
+    container: null,
+    esckey: true,
+    animateFrom: 'top',
+    animateTo: 'top',
+    positionX: 'center',
+    positionY: 'center',
+    width: null,
+    speedIn: 300,
+    speedOut: 300,
+    delay: 150,
+    fullscreen: false,
+    onOpen: null,
+    onComplete: null,
+    onClose: null,
+  }
+});
+			*/
 
 			// Instantiate new modal
 			var modal = new Custombox.modal({
 			  content: {
 			    effect: 'push',
-			    target: '#my-modal'
+			    target: '#my-modal',
+					animateFrom: 'left',
+					animateTo: 'left'
 			  }
 			});
 
