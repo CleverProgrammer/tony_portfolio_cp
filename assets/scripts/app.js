@@ -45,53 +45,51 @@
 		});
 	}
 
+	function designForm() {
+		$("#my-modal form").addClass("my-form");
+	}
+
 		$(document).ready(function() {
 			Typed.new("#writing-text", {
-				strings: ["am a Web Developer", "am a micro-specialist & macro-generalist", "am a problem solver.", "am always learning new things... ^ALWAYS!"],
+				strings: ["am a Web Developer.", "love everything about code.", "also teach programming to people.", "solve problems."],
 				// Optionally use an HTML element to grab strings from (must wrap each string in a <p>)
 				stringsElement: null,
 				// typing speed
-				typeSpeed: 0,
-				contentType: 'text'
+				typeSpeed: 1,
+				contentType: 'text',
+				callback: function() {
+					$("#writing-text").css({
+						"color": "#fff",
+						"background-color": "#C8412B"
+					});
+				},
+				preStringTyped: function () {
+				},
+				onStringTyped: function() {
+				}
 			});
 
 			displayWordCloud();
-			/*
-			new Custombox.modal({
-  // Options
-  content = {
-    target: null,
-    effect: 'fadein',
-    id: null,
-    container: null,
-    esckey: true,
-    animateFrom: 'top',
-    animateTo: 'top',
-    positionX: 'center',
-    positionY: 'center',
-    width: null,
-    speedIn: 300,
-    speedOut: 300,
-    delay: 150,
-    fullscreen: false,
-    onOpen: null,
-    onComplete: null,
-    onClose: null,
-  }
-});
-			*/
+			// designForm();
 
 			// Instantiate new modal
-			var modal = new Custombox.modal({
-			  content: {
-			    effect: 'push',
-			    target: '#my-modal',
-					animateFrom: 'left',
-					animateTo: 'left'
-			  }
-			});
-
-			$(".form-button").on("click", function() {
-				modal.open();
-			})
+			// var modal = new Custombox.modal({
+			//   content: {
+			//     effect: 'push',
+			//     target: '#my-modal',
+			// 		animateFrom: 'left',
+			// 		animateTo: 'left',
+			// 		fullscreen: true,
+			// 		positionX: 'center',
+			//     positionY: 'center'
+			//   }
+			// });
+			//
+			// $(".form-button").on("click", function() {
+			// 	modal.open();
+			// })
+			//
+			// $(document).on("click", "#crazy", function() {
+			// 	Custombox.modal.close();
+			// })
 		})

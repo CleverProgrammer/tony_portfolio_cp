@@ -15,6 +15,7 @@
 	<link rel="stylesheet" href="bower_components/jqcloud2/dist/jqcloud.min.css">
 	<script src="bower_components/custombox/dist/custombox.min.js"></script>
 	<link href="bower_components/custombox/dist/custombox.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Maven+Pro:400,500" rel="stylesheet">
 	<link rel="stylesheet" href="assets/fonts/foundation-icons/foundation-icons.css">
@@ -25,37 +26,41 @@
 		<div class="thin-bar">
 		</div>
 
-		<div class="row" id="my-modal">
-				<form class="" action="index.html" method="post">
-					Name: <input type="text" name="" value="">
-					Email: <input type="email" name="" value="">
-					<input type="submit" name="" value="submit">
-				</form>
-		</div>
-
-		<section class="row" id="about">
-			<div class="small-12 large-8 large-offset-2 columns text-center">
-				<img class="img-circle" src="assets/images/adhoc-profile-pic.png" alt="headshot">
-				<div class="details">
-					<h2>Hi, I'm Tenzin. I...<br> <span id="writing-text"><span></h2>
-					<!-- <h5>Web Developer</h5>
+		<section id="about">
+			<div class="row">
+				<div class="small-12 large-8 large-offset-2 columns text-center">
+					<img class="img-circle" src="assets/images/adhoc-profile-pic.png" alt="headshot">
+					<div class="details">
+						<h2>Hi, I'm Tenzin. I...<br> <span id="writing-text"><span></h2>
+						<!-- <h5>Web Developer</h5>
 					<p>Hello everyone, My name is Tenzin Phuljung. <br>I am a Web Developer from Chicago. I started this is just a blob of text and it doesn't make sense things about 5 years ago. I love to explore design and interact people with it. I design Website, Icons,
 						Logos, Print Templates, Mobile & Desktop App.</p> -->
-				</div>
-				<div class="cta">
-					<a class="my-button cta-button form-button" href="#">Get In Touch</a>
-				</div>
-				<div class="my-arrow-div">
-					<i class="fi-arrow-down"></i>
+					</div>
 				</div>
 			</div>
+			<div class="row">
+				<div class="small-12 column">
+					<div class="cta text-center">
+						<a class="my-button cta-button expand form-button" href="#">Get In Touch</a>
+					</div>
+				</div>
+				<div class="small-12 column">
+					<div class="my-arrow-div text-center">
+						<a href="https://github.com/developertenzin"><i class="fa fa-github-alt fa-2x"></i></a>
+						<a href="http://www.youtube.com/whatsdev"><i class="fa fa-youtube fa-2x"></i></a>
+					</div>
+				</div>
+			</div>
+
 		</section>
 
 		<section id="experience">
 
-			<h2 class="text-center">My Experience</h2>
-			<div class="row">
-				<p class="text-center tag-line">Specialist in need. Generalist at heart.</p>
+			<div class="row column">
+				<div class="small-12">
+					<h2 class="text-center">My Experience</h2>
+					<p class="text-center tag-line">Specialist in need. Generalist at heart.</p>
+				</div>
 			</div>
 			<div class="row">
 				<div class="small-12 medium-4 columns text-center experience-topics">
@@ -68,6 +73,7 @@
 						<li>Jquery</li>
 						<li>Bootstrap</li>
 						<li>Semantics-UI</li>
+						<li>Api | Ajax</li>
 					</ul>
 				</div>
 				<div class="small-12 medium-4 columns text-center experience-topics">
@@ -80,8 +86,7 @@
 						<li>SQL</li>
 						<li>Mongo</li>
 						<li>Restful Web Services</li>
-						<li>Python</li>
-						<li>Flask</li>
+						<li>Flask | Python</li>
 					</ul>
 				</div>
 				<div class="small-12 medium-4 columns text-center experience-topics">
@@ -89,9 +94,10 @@
 					<h3>Tools</h3>
 					<ul>
 						<li>Vim</li>
-						<li>Bower (web)</li>
+						<li>Bower</li>
 						<li>Atom || Webstorm</li>
 						<li>Github && Bitbucket</li>
+						<li>zsh</li>
 					</ul>
 				</div>
 			</div>
@@ -101,7 +107,7 @@
 		<section id="work">
 			<h2 class="text-center">Work</h2>
 			<div class="row">
-				<p class="text-center tag-line">Although I haven't accepted client projects in a while, here are some of my work...</p>
+				<p class="text-center tag-line">Here are few of my former clients.</p>
 			</div>
 			<div class="row work-row">
 				<div class="small-12 medium-6 columns">
@@ -112,7 +118,7 @@
 						<h3>FreshTechMaids</h3>
 						<p class="platform">Web</p>
 						<p class="icons"><i class="fi-monitor"></i><i class="fi-tablet-portrait"></i><i class="fi-mobile"></i></p>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+						<p>FreshTechMaids is a house maid service company.</p>
 						<a class="my-button" href="http://www.freshtechmaids.com">Visit Website</a>
 					</div>
 				</div>
@@ -126,7 +132,7 @@
 						<h3>Bankruptcy John</h3>
 						<p class="platform">Web</p>
 						<p class="icons"><i class="fi-monitor"></i><i class="fi-tablet-portrait"></i><i class="fi-mobile"></i></p>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+						<p>John is an Award-winning Chicago-based bankruptcy Lawyer.</p>
 						<a class="my-button" href="http://www.bankruptcyjohn.com">Visit Website</a>
 					</div>
 				</div>
@@ -140,7 +146,7 @@
 						<h3>Sykora Kitchens</h3>
 						<p class="platform">Web</p>
 						<p class="icons"><i class="fi-monitor"></i><i class="fi-tablet-portrait"></i><i class="fi-mobile"></i></p>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+						<p>A European kitchens and cabinets manufacturer.</p>
 						<a class="my-button" href="http://www.sykorakitchens.com">Visit Website</a>
 					</div>
 				</div>
@@ -167,7 +173,7 @@
 			<p></p>
 			<div class="row text-center">
 				<div class="small-12 medium-8 medium-offset-2 columns">
-					<p class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex. </p>
+					<p class="text-center">I'm currently available for work.</p>
 				</div>
 				<div class="small-12 columns">
 					<button class="my-button form-button" type="button" name="button">Start Now</button>

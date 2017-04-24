@@ -47,10 +47,18 @@ h1, h2, h3, h4, h5, h6 {
           box-shadow: none;
 }
 
-#my-modal {
+/*#my-modal {
 	display: none;
-	background: black;
 }
+
+.my-form {
+	margin-top: 20em;
+}
+
+.custombox-content {
+	background: #212332;
+}*/
+
 /**********************************/
 
 
@@ -116,19 +124,17 @@ h1, h2, h3, h4, h5, h6 {
 		color: white;
 }
 
-.my-arrow-div {
-	margin-top: 5em;
+#about i {
+	margin-top: 2em;
 }
 
-.fi-arrow-down {
-	border: 2px solid #c3b8b8;
-	border-radius: 50%;
+.fa {
 	font-size: 1.2em;
 	padding: 0.1em 0.4em;
 	color: #8a8a8a;
 }
 
-.fi-arrow-down:hover {
+.fa:hover {
 	cursor: pointer;
 }
 
@@ -183,7 +189,7 @@ h1, h2, h3, h4, h5, h6 {
 
 
 #work .tag-line {
-	color: rgba(245, 83, 0, 0.78);
+	color: #767779;
 	font-size: 1.4em;
 	margin-bottom: 4em;
 }
