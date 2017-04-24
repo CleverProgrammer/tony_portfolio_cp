@@ -169,20 +169,24 @@ h1, h2, h3, h4, h5, h6 {
 
 /*** work ***/
 #work {
-	padding: 6em 4em 5.6em;
+	padding: 6em 4em 3em;
 	background-color: #fff;
 }
 
 #work h2 {
-	color: #738182;
+	color: #FF6945;
 	margin-bottom: .7em;
 }
 
 
 #work .tag-line {
-	color: gray;
+	color: rgba(245, 83, 0, 0.78);
 	font-size: 1.4em;
-	margin-bottom: 2em;
+	margin-bottom: 4em;
+}
+
+#work .work-row {
+	margin-bottom: 5.5em;
 }
 
 .details h3 {
@@ -193,7 +197,7 @@ h1, h2, h3, h4, h5, h6 {
 .details .platform{
 	font-size: 0.8em;
 	text-transform: uppercase;
-	margin-top: 2em;
+	margin: 2em 0 -0.1em;
 	font-family: "Maven pro", sans-serif;
 	font-weight: 500;
 	color: #ff7654;
@@ -209,6 +213,7 @@ h1, h2, h3, h4, h5, h6 {
 	font-family: "Maven pro", sans-serif;
 	font-weight: 500;
 	font-size: 1.2em;
+	margin-bottom: 1.8em;
 }
 
 .details a, .details a:link, .details a:active{
