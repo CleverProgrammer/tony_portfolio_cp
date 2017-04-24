@@ -228,6 +228,25 @@ h1, h2, h3, h4, h5, h6 {
 		color: #fff;
 }
 
+/*** teaching ***/
+#teaching {
+	padding: 6em 4em 3em;
+}
+
+#teaching h2 {
+	color: #595959;
+}
+
+#teaching .tag-line {
+	color: #848282;
+	font-size: 1.4em;
+}
+
+#teaching .teaching-domains {
+	height: 500px;
+	width: auto;
+}
+
 
 
 
