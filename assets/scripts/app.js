@@ -1,4 +1,5 @@
 function makeWords() {
+
 	var words = [
 		{
 			text: "html5",
