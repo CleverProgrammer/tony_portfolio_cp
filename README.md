@@ -1,2 +1,2 @@
-# adhoc-portfolio
-My portfolio specifically for Chicago Digital since I haven't updated my page in a long while :) and also for fun!!!
+# How to Access My Portfolio Online...? Click the link below
+https://cleverprogrammer.github.io/tony_portfolio_cp/
